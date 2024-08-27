@@ -45,41 +45,41 @@ export const PROJECTS = [
     title: "2048 en C",
     image: project1,
     description:
-      "Durant la première UE de nos cours d'informatique, nous avons pu reproduire le jeu du 2048 en C dans le terminal. De plus nous avons partager nos fichier via github en utilisant git",
-    technologies: ["C",'Git',"Github"],
-    category : "scolaire"
+      "Lors de notre première UE en informatique, nous avons reproduit le jeu 2048 en C dans le terminal. De plus, nous avons appris à partager nos fichiers via GitHub en utilisant Git.",
+    technologies: ["C", "Git", "GitHub"],
+    category: "scolaire",
   },
   {
-    title: "Maquette de porte automatisée par des capteurs arduino, liaison bidirectionnel avec Node-red en utilisant des esp32",
+    title: "Maquette de porte automatisée avec des capteurs Arduino et communication bidirectionnelle via Node-RED avec ESP32",
     image: project2,
     description:
-      "nous avons du créer une maquette de porte qui fesait la gestion automatique des capteurs d'entrées (biométrique, rfid , keypad), tout en envoyant sur node red en connexion MQTT les données",
-    technologies: ["Arduino", "Node-red", "Esp32"],
-    category : "scolaire"
+      "Nous avons conçu une maquette de porte automatisée gérant différents capteurs d'entrée (biométrique, RFID, clavier) et envoyant les données à Node-RED via une connexion MQTT.",
+    technologies: ["Arduino", "Node-RED", "ESP32"],
+    category: "scolaire",
   },
   {
     title: "Portfolio",
     image: project3,
     description:
-      "Création d'un portfolio en react en utilisant tailwind et frame motion",
-    technologies: ["HTML", "CSS", "React", "Bootstrap","Tailwind","coreui"],
-    category : "personnel"
+      "Création d'un portfolio en React, en utilisant Tailwind CSS et Framer Motion pour les animations.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap", "Tailwind", "CoreUI"],
+    category: "personnel",
   },
   {
-    title: "NAS avec OpenMediaVault et Portainer ",
+    title: "NAS avec OpenMediaVault et Portainer",
     image: project4,
     description:
-      "J'ai transformer un ancien pc portable en server fonctionnelle en utilisant OMV, j'ai pu notamment hébérger une instance d'Octoprint et un serveur de jeu",
-    technologies: ["OMV","Portainer","Docker","Octoprint"],
-    category : "personnel"
+      "J'ai transformé un ancien PC portable en serveur fonctionnel avec OpenMediaVault (OMV), permettant notamment d'héberger une instance d'OctoPrint et un serveur de jeu.",
+    technologies: ["OMV", "Portainer", "Docker", "OctoPrint"],
+    category: "personnel",
   },
   {
     title: "HOXX VPN",
     image: project5,
     description:
-      "Contribution à la quality control de hoxx VPN, un VPN pour navigateur en hostant 2 instances docker en utilisant PUTTY et OMV",
-    technologies: ["OMV","Docker"],
-    category : "personnel"
+      "Participation à la qualité du contrôle de HOXX VPN, un VPN pour navigateur, en hébergeant deux instances Docker avec PUTTY et OpenMediaVault (OMV).",
+    technologies: ["OMV", "Docker"],
+    category: "personnel",
   }
 ];
 
