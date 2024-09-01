@@ -43,7 +43,7 @@ const Contact = () => {
           <div className="square" />
         </span>
         <p className="title">Voici le CV</p>
-        <a className="title" href="bastien--heitzmann.fr/Heitzmann_BASTIEN.pdf"> Ouvrir a</a>
+        <a className="title" href="/Heitzmann_BASTIEN.pdf"> Ouvrir</a>
       </label>
     </div>
   </motion.p>
