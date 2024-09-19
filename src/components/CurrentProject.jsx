@@ -4,7 +4,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const CurrentProject = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
-    'src/assets/img/currentproject/image1.jpg',
+    'src/assets/img/currentproject/images1.png',
 
 
   ];
