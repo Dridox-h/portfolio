@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
+import image1 from "/src/assets/img/currentproject/images1.png";
+
 const CurrentProject = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [
-    '/assets/img/currentproject/images1.png',
 
+  const images = [
+    image1,
 
   ];
 
@@ -46,7 +48,7 @@ const CurrentProject = () => {
       <div className="max-w-3xl mx-auto px-4 border-b border-neutral-800 pb-12">
         <h2 className="text-2xl font-bold mb-4 text-center text-neutral-100">Mon Projet en Cours</h2>
         <p className="text-neutral-300 text-center leading-relaxed">
-            Réalisation d'un scraper web afin de récupérer de la data pour potentiellemnt pouvoir faire un bot d'arbitrage
+          Réalisation d'un scraper web afin de récupérer de la data pour potentiellement pouvoir faire un bot d'arbitrage
         </p>
       </div>
     </div>
