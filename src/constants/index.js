@@ -3,6 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
 
 export const HERO_CONTENT = `Actuellement en deuxième année d'études à l'Université de Technologie de Belfort-Montbéliard (UTBM), je me destine à devenir ingénieur informatique spécialisé en cybersécurité. J'ai décidé de créer ce portfolio pour montrer mes compétences et ainsi trouver une alternance en informatique pour septembre 2025.`;
@@ -79,6 +80,14 @@ export const PROJECTS = [
     description:
       "Participation à la qualité du contrôle de HOXX VPN, un VPN pour navigateur, en hébergeant deux instances Docker avec PUTTY et OpenMediaVault (OMV).",
     technologies: ["OMV", "Docker"],
+    category: "personnel",
+  },
+  {
+    title: "Recycler PET pour imprimante 3d",
+    image: project6,
+    description:
+      "Conception d'une machine permettant de découper les bouteilles plastiques faites en PET pour pouvoir le transformer en filament utilisable par une imprimante 3D",
+    technologies: ["Fusion 360","impression 3D"],
     category: "personnel",
   }
 ];
