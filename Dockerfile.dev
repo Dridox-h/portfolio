@@ -1,12 +1,20 @@
 FROM node:18-alpine
 
+LABEL maintainer="portfolio"
+LABEL description="Portfolio React application - development"
+
 WORKDIR /app
 
+# Install dependencies
 COPY package*.json ./
+RUN npm ci --silent
 
-RUN npm install
-
+# Copy source code
 COPY . .
+
+# Environment variables for Vite
+ENV HOST=0.0.0.0
+ENV PORT=5173
 
 EXPOSE 5173
 
